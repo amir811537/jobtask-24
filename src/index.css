@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+background-color: #12141D;
+}
+.gredient-button{
+
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    background-image: linear-gradient(to right, #2B59FF, #BB2BFF);
+    color: #ffffff;
+    border: none;
+}
