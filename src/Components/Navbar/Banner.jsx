@@ -16,9 +16,9 @@ const Banner = () => {
        
         <p className="my-5 text-[#FAFAFA]">Artificial intelligence writting tool helps you create blogs, <br /> social media websites and much more.</p>
       <button className="gredient-button">Start 14 Days Free Trial</button>
-<div className="my-2 flex items-center gap-2 mx-auto max-w-max ">
-<FaRegCirclePlay className="bg-white" />
-<button className="btn btn-ghost">Watch A Demo</button>
+<div className="my-2 flex items-center mx-auto max-w-max ">
+<FaRegCirclePlay className="text-xl text-white" />
+<button className="btn text-white btn-ghost">Watch A Demo</button>
 
 </div>
       </div>
