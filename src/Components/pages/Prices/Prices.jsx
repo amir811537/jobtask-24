@@ -1,211 +1,109 @@
 const Prices = () => {
     return (
         <div>
-            <section className="py-6 leading-7 text-gray-900 bg-white sm:py-12 md:py-16">
-    <div className="box-border px-4 mx-auto border-solid sm:px-6 md:px-6 lg:px-0 max-w-7xl">
+<div>
 
-        <div className="flex flex-col items-center leading-7 text-center text-gray-900 border-0 border-gray-200">
-            <h2 id="pricing"
-                className="box-border m-0 text-3xl font-semibold leading-tight tracking-tight text-black border-solid sm:text-4xl md:text-5xl">
-                Simple, Transparent Pricing
-            </h2>
-            <p className="box-border mt-2 text-xl text-gray-900 border-solid sm:text-2xl">
-            </p>
-        </div>
-
-        
-        <div id="pricing"
-            className="grid grid-cols-1 gap-4 mt-4 leading-7 text-gray-900 border-0 border-gray-200 sm:mt-6 sm:gap-6 md:mt-8 md:gap-0 lg:grid-cols-3">
-            {/* <!-- Price 1 --> */}
-            <div
-                className="relative z-10 flex flex-col items-center max-w-md p-4 mx-auto my-0 border border-solid rounded-lg lg:-mr-3 sm:my-0 sm:p-6 md:my-8 md:p-8">
-                <h3
-                    className="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-gray-200 sm:text-3xl md:text-4xl">
-                    Starter
-                </h3>
-                <div className="flex items-end mt-6 leading-7 text-gray-900 border-0 border-gray-200">
-                    <p className="box-border m-0 text-6xl font-semibold leading-none border-solid">
-                        $1
-                    </p>
-                    <p className="box-border m-0 border-solid" style={{borderImage: "initial"}}>
-                        / month
-                    </p>
-                </div>
-                <ul className="flex-1 p-0 mt-4 ml-5 leading-7 text-gray-900 border-0 border-gray-200">
-                    <li className="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
-                        <svg className="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6"
-                            fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7">
-                            </path>
-                        </svg>
-                        1 Website
-                    </li>
-
-                    <li className="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
-                        <svg className="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6"
-                            fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7">
-                            </path>
-                        </svg>
-                        SSL (HTTPS)
-                    </li>
-
-                    <li className="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
-                        <svg className="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6"
-                            fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7">
-                            </path>
-                        </svg>
-                        SiteFast Domain
-                    </li>
-
-                </ul>
-                <a href="#"
-                    className="inline-flex justify-center w-full px-4 py-3 mt-8 font-sans text-sm leading-none text-center text-blue-600 no-underline bg-transparent border border-blue-600 rounded-md cursor-pointer hover:bg-blue-700 hover:border-blue-700 hover:text-white focus-within:bg-blue-700 focus-within:border-blue-700 focus-within:text-white sm:text-base md:text-lg">
-                    Start Now
-                </a>
-            </div>
-            {/* <!-- Price 2 --> */}
-            <div
-                className="relative z-20 flex flex-col items-center max-w-md p-4 mx-auto my-0 bg-white border-4 border-blue-600 border-solid rounded-lg sm:p-6 md:px-8 md:py-16">
-                <h3
-                    className="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-gray-200 sm:text-3xl md:text-4xl">
-                    Basic
-                </h3>
-                <div className="flex items-end mt-6 leading-7 text-gray-900 border-0 border-gray-200">
-                    <p className="box-border m-0 text-6xl font-semibold leading-none border-solid">
-                        $29
-                    </p>
-                    <p className="box-border m-0 border-solid" style={{borderImage: "initial"}}>
-                        / month
-                    </p>
-                </div>
-                <ul className="flex-1 p-0 mt-4 ml-5 leading-7 text-gray-900 border-0 border-gray-200">
-                    <li className="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
-                        <svg className="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6"
-                            fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7">
-                            </path>
-                        </svg>
-                        15 Websites
-                    </li>
-
-                    <li className="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
-                        <svg className="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6"
-                            fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7">
-                            </path>
-                        </svg>
-                        SSL (HTTPS)
-                    </li>
-
-                    <li className="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
-                        <svg className="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6"
-                            fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7">
-                            </path>
-                        </svg>
-                        Custom Domain
-                    </li>
-
-                    <li className="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
-                        <svg className="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6"
-                            fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7">
-                            </path>
-                        </svg>
-                        SiteFast Branding Removal
-                    </li>
-                </ul>
-
-                <a href="#"
-                    className="inline-flex justify-center w-full px-4 py-3 mt-8 font-sans text-sm leading-none text-center text-white no-underline bg-blue-600 border rounded-md cursor-pointer hover:bg-blue-700 hover:border-blue-700 hover:text-white focus-within:bg-blue-700 focus-within:border-blue-700 focus-within:text-white sm:text-base md:text-lg">
-                    Start Now
-                </a>
-            </div>
-            {/* <!-- Price 3 --> */}
-            <div
-                className="relative z-10 flex flex-col items-center max-w-md p-4 mx-auto my-0 border border-solid rounded-lg lg:-ml-3 sm:my-0 sm:p-6 md:my-8 md:p-8">
-                <h3
-                    className="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-gray-200 sm:text-3xl md:text-4xl">
-                    Plus
-                </h3>
-                <div className="flex items-end mt-6 leading-7 text-gray-900 border-0 border-gray-200">
-                    <p className="box-border m-0 text-6xl font-semibold leading-none border-solid">
-                        $49
-                    </p>
-                    <p className="box-border m-0 border-solid" style={{borderImage: "initial"}}>
-                        / month
-                    </p>
-                </div>
-
-                <ul className="flex-1 p-0 mt-4 leading-7 text-gray-900 border-0 border-gray-200">
-                    <li className="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
-                        <svg className="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6"
-                            fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7">
-                            </path>
-                        </svg>
-                        50 Websites
-                    </li>
-
-                    <li className="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
-                        <svg className="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6"
-                            fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7">
-                            </path>
-                        </svg>
-                        SSL (HTTPS)
-                    </li>
-
-                    <li className="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
-                        <svg className="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6"
-                            fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7">
-                            </path>
-                        </svg>
-                        Custom Domain
-                    </li>
-
-
-                    <li className="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
-                        <svg className="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6"
-                            fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7">
-                            </path>
-                        </svg>
-                        SiteFast Branding Removal
-                    </li>
-
-
-                    <li className="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
-                        <svg className="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6"
-                            fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7">
-                            </path>
-                        </svg>
-                        Google Analytics
-                    </li>
-
-                    <li className="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
-                        <svg className="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6"
-                            fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7">
-                            </path>
-                        </svg>
-                        Email Integration
-                    </li>
-
-                </ul>
-                <a href="#"
-                    className="inline-flex justify-center w-full px-4 py-3 mt-8 font-sans text-sm leading-none text-center text-blue-600 no-underline bg-transparent border border-blue-600 rounded-md cursor-pointer hover:bg-blue-700 hover:border-blue-700 hover:text-white focus-within:bg-blue-700 focus-within:border-blue-700 focus-within:text-white sm:text-base md:text-lg">
-                    Start Now
-                </a>
-
-            </div>
-        </div>
-    </div>
-</section>
+    <h1 className="text-4xl text-white font-semibold text-center my-5">Make the wise decision <br /> for your business</h1>
+<p className="text-white text-center my-2 ">Choose from our affordable 3 packages</p>
+    <ul className="grid gap-6 mt-6 md:gap-12 md:grid-cols-3 p-5">
+    <li className="p-6 shadow-xl bg-[#282A37] rounded-xl">
+        <h3 className="font-bold bg-[#282A37] text-white">Starter Plan</h3>
+        <p className="mt-6  font-bold bg-[#282A37] text-white"><span className="bg-[#282A37] text-white text-4xl">$29</span><span className="bg-[#282A37] text-white">/month</span></p>
+        <p className="mt-3 bg-[#282A37] text-white">
+This package is suitable for teams 1-15 people.</p>
+<h1 className="bg-[#282A37] text-white text-xl font-semibold my-10">What’s included:</h1>
+        <ul className="mt-6">
+            <li className="flex items-center gap-1.5 font-medium bg-[#282A37] text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0 w-5 h-5 bg-[#282A37] text-white" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span className="bg-[#282A37] text-white" >10 GB Dedicated Hosting Free</span>
+            </li>
+            <li className="flex items-center gap-1.5 font-medium bg-[#282A37] text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0 w-5 h-5 bg-[#282A37] text-white" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span className="bg-[#282A37] text-white" >Best for Developers, Freelancers</span>
+            </li>
+          
+            <li className="flex items-center gap-1.5 font-medium bg-[#282A37] text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0 w-5 h-5 bg-[#282A37] text-white" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span className="bg-[#282A37] text-white" >1 Year Support </span>
+            </li>
+        </ul>
+            <button className="flex mt-28 border rounded-md w-full justify-center bg-[#282a37] text-white py-2 mx-auto">Get Started</button>
+    </li>
+    <li className="p-6 shadow-xl bg-[#282A37] rounded-xl">
+        <h3 className="font-bold bg-[#282A37] text-white">Starter Plan</h3>
+        <p className="mt-6  font-bold bg-[#282A37] text-white"><span className="bg-[#282A37] text-white text-4xl">$79</span><span className="bg-[#282A37] text-white">/month</span></p>
+        <p className="mt-3 bg-[#282A37] text-white">
+This package is suitable for teams 1-15 people.</p>
+<h1 className="bg-[#282A37] text-white text-xl font-semibold my-10">What’s included:</h1>
+        <ul className="mt-6">
+            <li className="flex items-center gap-1.5 font-medium bg-[#282A37] text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0 w-5 h-5 bg-[#282A37] text-white" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span className="bg-[#282A37] text-white" >50 GB Dedicated Hosting Free</span>
+            </li>
+            <li className="flex items-center gap-1.5 font-medium bg-[#282A37] text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0 w-5 h-5 bg-[#282A37] text-white" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span className="bg-[#282A37] text-white" >Best for Developers, Freelancers</span>
+            </li>
+          
+            <li className="flex items-center gap-1.5 font-medium bg-[#282A37] text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0 w-5 h-5 bg-[#282A37] text-white" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span className="bg-[#282A37] text-white" >3 Year Support </span>
+            </li>
+        </ul>
+            <button className="flex mt-28 border rounded-md w-full justify-centertext-white btn bg-gradient-to-r from-[#2B59FF] to-[#BB2BFF] border-none text-white py-2 mx-auto">Get Started</button>
+    </li>
+    <li className="p-6 shadow-xl bg-[#282A37] rounded-xl">
+        <h3 className="font-bold bg-[#282A37] text-white">Starter Plan</h3>
+        <p className="mt-6  font-bold bg-[#282A37] text-white"><span className="bg-[#282A37] text-white text-4xl">$129</span><span className="bg-[#282A37] text-white">/month</span></p>
+        <p className="mt-3 bg-[#282A37] text-white">
+This package is suitable for teams 1-15 people.</p>
+<h1 className="bg-[#282A37] text-white text-xl font-semibold my-10">What’s included:</h1>
+        <ul className="mt-6">
+            <li className="flex items-center gap-1.5 font-medium bg-[#282A37] text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0 w-5 h-5 bg-[#282A37] text-white" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span className="bg-[#282A37] text-white" >100 GB Dedicated Hosting Free</span>
+            </li>
+            <li className="flex items-center gap-1.5 font-medium bg-[#282A37] text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0 w-5 h-5 bg-[#282A37] text-white" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span className="bg-[#282A37] text-white" >Best for Developers, Freelancers</span>
+            </li>
+          
+            <li className="flex items-center gap-1.5 font-medium bg-[#282A37] text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0 w-5 h-5 bg-[#282A37] text-white" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span className="bg-[#282A37] text-white" >5 Year Support </span>
+            </li>
+        </ul>
+            <button className="flex mt-28 border rounded-md w-full justify-center bg-[#282a37] text-white py-2 mx-auto">Get Started</button>
+    </li>
+</ul>
+</div>
         </div>
     );
 };

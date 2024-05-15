@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { RiMenu3Line } from "react-icons/ri";
 import logo from "../../assets/White Logo_Hotchpotch-01 1.png"
 const Navbar = () => {
@@ -32,7 +32,9 @@ const Navbar = () => {
           </div>
 
 
+<Link to="/">
 <img src={logo} alt="" />
+</Link>
 <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-black lg:text-white">
             {

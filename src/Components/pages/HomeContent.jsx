@@ -9,6 +9,7 @@ import logo8 from '../../assets/Logo(8).png';
 import Cards from './Cards/Cards';
 import Prices from './Prices/Prices';
 import Reviews from './Reviews/Reviews';
+import Subscribe from './Subscribe/Subscribe';
 import Testimonial from './testimonial/Testimonial';
 import WebBuild from './web builder/WebBuild';
 
@@ -33,6 +34,7 @@ const HomeContent = () => {
 <Reviews></Reviews>
 
 <Prices></Prices>
+<Subscribe></Subscribe>
 
     </div>
   );
